@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/.ruff_cache": true,
+    "**/*.egg-info": true,
+    "data/*.db": true,
+    "data/*.db-*": true,
+    "data/uploads/**": true,
+    "data/prepared/**": true,
+    "data/reports/**": true
+  }
+}

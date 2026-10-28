@@ -1,0 +1,35 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+
+# Local databases
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Uploaded and generated data
+data/uploads/*
+data/prepared/*
+data/reports/*
+
+# Local checkpoints and logs
+*.log
+.vercel/
