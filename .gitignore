@@ -33,3 +33,17 @@ data/reports/*
 # Local checkpoints and logs
 *.log
 .vercel/
+
+# Generated chart images
+data/charts/
+
+# Local database and checkpoint files
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3
+
+# Temporary files
+test_tmp.py
+tsc.txt
+dummy.txt
